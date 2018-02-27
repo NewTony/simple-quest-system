@@ -159,7 +159,7 @@ function questsys.get(questname, getinfo)
       if getInfo == "location" then return v.location end
       if getInfo == "level" then return v.level end
       if getInfo == "questgiver" then return v.questgiver end
-    else error("No such quest name!")
+    else error("No such quest name!") end
   end
 end
 
